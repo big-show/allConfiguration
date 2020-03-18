@@ -33,7 +33,7 @@
   },
   "huksy": {
     "hooks": {
-      "pre-commit": "yarn  test"
+      "pre-commit": "yarn test"
     }
   }
 }
