@@ -6,7 +6,8 @@
   "scripts": {
     "test": "eslint src",
     "start": "node_modules/.bin/webpack --mode=development",
-    "server": "webpack-dev-server --open"
+    "server": "webpack-dev-server --open",
+    "precommit": "eslint src"
   },
   "keywords": [],
   "author": "",
@@ -30,10 +31,5 @@
     "eslint-plugin-react": "^7.19.0",
     "husky": "^4.2.3",
     "lint-staged": "^10.0.8"
-  },
-  "huksy": {
-    "hooks": {
-      "pre-commit": "yarn test"
-    }
   }
 }
