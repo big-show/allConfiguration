@@ -31,10 +31,9 @@
     "husky": "^4.2.3",
     "lint-staged": "^10.0.8"
   },
-
-  "lint-staged": {
-    "/src/*.{js,jsx}": [
-      "yarn run test"
-    ]
+  "huksy": {
+    "hooks": {
+      "pre-commit": "yarn  test"
+    }
   }
 }
